@@ -1,0 +1,252 @@
+
+/*************************************
+GENERAL
+**************************************/
+a {
+	text-decoration: underline;
+}
+ 
+
+img {
+max-width: 100%;
+
+}
+
+#main {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36;
+ }
+
+.tab {
+	margin-left: 40px;
+}
+
+/* #wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+
+ } */
+
+
+
+ h3 {
+     margin: 0 0 1em 0;
+ }
+
+
+/*************************************
+HEADING
+**************************************/
+
+.header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 2px 0 0 0; 
+  width: 100%;
+
+}
+
+#header {
+	padding: 25px;
+}
+
+
+
+#logo {
+   text-align: center;
+   margin: 0;
+
+ }
+
+ h1  {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 10px 0;
+ font-size: 1.75em;
+ font-weight: bold;
+ line-height: 0.5;
+ text-align: center;
+ color: 	#FF0000;
+
+ }
+
+ h2  {
+ font-size: 1.00em;
+ font-weight: normal;
+ margin: -5px 0 0;
+ }
+
+
+h3  {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+
+
+
+
+
+
+/*************************************
+NAVIGATION
+**************************************/
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+
+  nav ul  {
+    list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*************************************
+FOOTER
+**************************************/
+ footer {
+ font-size: 0.75em;
+ text-align: center;
+ clear: both;
+ padding-top: 50px;
+ color: #ccc;
+ }
+
+/*************************************
+PAGE:
+**************************************/
+.mydiv {background: lightblue; width:250px; height: 250px;}
+
+.milaimage {
+    float:left;
+    width:150px;
+    height:175px;
+    margin:20px;
+    border-radius: 20px;
+}
+
+.tacoimage {
+    float:left;	
+    margin:20px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px 2px #404040;
+	max-width: 15%;
+	height: auto;
+}
+
+
+
+ /*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+ /* header */
+ #header {
+   background: #f2f1df;
+ }
+
+
+ /* navbar colors*/
+ 
+ #navbar ul {
+	color: white;
+	background-color: #808080;
+}
+
+#navbar li a, li a:visited {
+	color: #fff;
+}
+
+#navbar a:hover {
+  color: #333333;
+}
+
+.active {
+	background-color: #f98501; /*#18b304;*/
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #333333;
+  color: white;
+}
+
+
+/* site body*/
+body {
+    background-color: #f2f1df; /*#f0eed5;*/
+    color: #000;
+}
+
+
+ /* link colors */
+ a {
+	color: #f98501;
+ }
+ 
+ a:visited {
+	 color: #ca3402;
+ }
+ 
+ a:hover {
+	 color: #0ac294;
+ }
+
+
+ /* logo text*/
+
+ h1, h2  {
+    color: #4d004d;
+}
+
+
+/* nav background on mobile devices*/
+nav {
+   background: #599a6b;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}

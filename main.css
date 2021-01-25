@@ -1,0 +1,158 @@
+
+/*************************************
+GENERAL
+**************************************/
+
+a {
+	text-decoration: underline;
+}
+ 
+body {
+	margin: 0;
+	padding: 0;
+}
+ 
+#main {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding: 50px 20px 20px 20px;
+ }
+ 
+
+.tab {
+	margin-left: 40px;
+}
+
+
+/*************************************
+HEADINGS
+**************************************/
+
+#header {
+	padding: 25px;
+}
+
+ h1  {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5px 0;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+ }
+
+
+/*************************************
+NAVIGATION
+**************************************/
+
+#navbar {
+	width: 100%;
+	float: left;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/*************************************
+PAGE: HOME
+**************************************/
+
+.chefimage {
+    float:center;	
+    margin:20px 20px 20px 0px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px 2px #404040;
+	max-width: 50%;
+	height: auto;
+}
+
+
+ /*************************************
+PAGE: OUR FAVORITES
+**************************************/
+
+.tacoimage {
+    float:left;	
+    margin:0px 20px 20px 0px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px 2px #404040;
+	max-width: 15%;
+	height: auto;
+}
+
+
+/*************************************
+COLORS
+**************************************/
+
+ /* header */
+#header {
+   background: #f2f1df;
+}
+
+ /* navbar colors*/
+ 
+#navbar {
+	color: #ffffff;
+	background-color: #808080;
+}
+ 
+#navbar li a, li a:visited {
+	color: #ffffff;
+}
+
+#navbar a:hover {
+  color: #333333;
+}
+
+.active {
+	background-color: #f98501;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* site body*/
+body {
+    background-color: #f2f1df;
+    color: #000000;
+}
+
+ /* link colors */
+ a {
+	color: #f98501;
+ }
+ 
+ a:visited {
+	 color: #ca3402;
+ }
+ 
+ a:hover {
+	 color: #0ac294;
+ }
+
+
+ /* header*/
+
+ h1, h2, h3  {
+    color: #ca6602;
+}
