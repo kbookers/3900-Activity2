@@ -1,4 +1,3 @@
-
 /*************************************
 GENERAL
 **************************************/
@@ -108,7 +107,6 @@ COLORS
 }
 
  /* navbar colors*/
- 
 #navbar {
 	color: #ffffff;
 	background-color: #808080;
@@ -152,7 +150,6 @@ body {
 
 
  /* header*/
-
  h1, h2, h3  {
     color: #ca6602;
 }
